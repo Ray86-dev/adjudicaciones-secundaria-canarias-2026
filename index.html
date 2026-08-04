@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adjudicaciones Secundaria Canarias 2026/27 — Destinos provisionales</title>
+<meta name="description" content="Buscador de la adjudicación de destinos provisionales 2026/27 de Secundaria Resto en Canarias: interinos, centros, especialidades e islas.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Adjudicaciones Secundaria Canarias <span>2026/27</span></h1>
+  <p class="subtitle">Anexo I — Adjudicación de destinos provisionales · Secundaria Resto · Curso 2026/27</p>
+</header>
+
+<main>
+  <section class="search-box">
+    <div class="search-row">
+      <input type="search" id="q" placeholder="Buscar por nombre, DNI, centro, municipio…" autocomplete="off" autofocus>
+      <button id="clearBtn" type="button" title="Limpiar">✕</button>
+    </div>
+    <div class="filters">
+      <select id="fEspecialidad" title="Filtrar por especialidad"><option value="">Todas las especialidades</option></select>
+      <select id="fIsla" title="Filtrar por isla"><option value="">Todas las islas</option></select>
+      <select id="fCategoria" title="Filtrar por categoría"><option value="">Todas las categorías</option></select>
+      <label class="check"><input type="checkbox" id="fConDestino"> Solo con destino</label>
+      <label class="check"><input type="checkbox" id="fNoObtiene"> Solo sin vacante</label>
+    </div>
+    <div id="stats" class="stats"></div>
+  </section>
+
+  <section id="loading" class="loading">Cargando datos…</section>
+
+  <section id="results" class="results" hidden></section>
+
+  <nav id="pagination" class="pagination" hidden></nav>
+</main>
+
+<footer>
+  <p>Fuente: <a href="https://www.gobiernodecanarias.org/educacion/" rel="noopener">Consejería de Educación del Gobierno de Canarias</a> — Anexo I, adjudicación de destinos provisionales 2026/27. Datos de carácter orientativo; consulte la resolución oficial para cualquier trámite.</p>
+  <p>Repositorio: <a href="https://github.com/Ray86-dev/adjudicaciones-secundaria-canarias-2026" rel="noopener">Ray86-dev/adjudicaciones-secundaria-canarias-2026</a></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

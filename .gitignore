@@ -1,0 +1,4 @@
+# Datos regenerables / grandes que no se versionan
+salida/
+anexo_provisional_interinos_secundaria.pdf
+*.tmp
