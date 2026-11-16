@@ -1,5 +1,7 @@
 # Adjudicaciones Secundaria Canarias 2026/27
 
+> **In English:** Search for 31,828 provisional teaching posts in the Canary Islands (2026/27), extracted from the official PDF with Python. One JSON file and plain JavaScript: it runs entirely in the browser, with no server. [Live site](https://ray86-dev.github.io/adjudicaciones-secundaria-canarias-2026/).
+
 Buscador web de la **adjudicación de destinos provisionales** del curso 2026/27 para el cuerpo de **Secundaria Resto** en Canarias (Anexo I de la resolución de la Consejería de Educación del Gobierno de Canarias).
 
 Web: <https://ray86-dev.github.io/adjudicaciones-secundaria-canarias-2026/>
